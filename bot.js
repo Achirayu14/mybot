@@ -459,4 +459,5 @@ client.on("interactionCreate", async (interaction) => {
   }
 });
 
-client.login(config.token);
+// เปลี่ยนจาก client.login(config.token); เป็นแบบด้านล่างนี้
+client.login(process.env.DISCORD_TOKEN || config.token);
