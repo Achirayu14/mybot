@@ -13,7 +13,7 @@ const {
 const fs = require("fs");
 const path = require("path");
 const https = require("https");
-const http = require("http");
+// ลบบรรทัด const http = require("http"); ตรงนี้ออกไป
 const Jimp = require("jimp");
 
 // ===========================
