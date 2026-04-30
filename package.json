@@ -1,0 +1,17 @@
+{
+  "name": "discord-image-ban-bot",
+  "version": "2.0.0",
+  "description": "แบนผู้ใช้ที่ส่งรูปต้องห้ามใน Discord โดยใช้ Perceptual Hashing",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "jimp": "^0.22.12",
+    "discord.js": "^14.15.3"
+  },
+  "engines": {
+    "node": ">=16.11.0"
+  }
+}
